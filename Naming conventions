@@ -1,2 +1,10 @@
 
 Ressource group name : azure-secure-lab-rg
+Virtual Network: vnet-secure-lab
+Subnet 1: subnet-frontend
+Subnet 2: subnet-backend
+Frontend VM: vm-frontend
+Backend VM: vm-backend
+
+
+Chosen region : (Europe) France Central
