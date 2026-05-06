@@ -1,0 +1,1 @@
+# azure-secure-lab-rg
