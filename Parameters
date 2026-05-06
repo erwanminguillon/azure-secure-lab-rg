@@ -30,17 +30,16 @@
                 ]
             }
         },
-        "natGatewaysWithNewPublicIpAddress": {
-            "value": []
+        "summarizedGatewayPrefixes": {
+            "value": {
+                "addressPrefixes": []
+            }
         },
-        "natGatewaysWithoutNewPublicIpAddress": {
-            "value": []
+        "encryptionEnabled": {
+            "value": false
         },
-        "natGatewayPublicIpAddressesNew": {
-            "value": []
-        },
-        "networkSecurityGroupsNew": {
-            "value": []
+        "encryptionEnforcement": {
+            "value": "AllowUnencrypted"
         },
         "subnets": {
             "value": [
@@ -72,44 +71,103 @@
         "firewallEnabled": {
             "value": false
         },
-        "firewallSkuTier": {
-            "value": "Standard"
+        "bastionEnabled": {
+            "value": false
         },
-        "firewallPolicyIsNew": {},
-        "firewallPolicyId": {},
-        "firewallPolicyTier": {},
+        "ddosProtectionPlanIsNew": {
+            "value": false
+        },
         "firewallPublicIpAddressIsNew": {
             "value": false
         },
-        "firewallPublicIpAddressId": {
-            "value": ""
+        "firewallPolicyIsNew": {
+            "value": false
         },
-        "firewallPublicIPAddressServiceTag": {},
-        "bastionEnabled": {
+        "firewallPolicyManagementPublicIPAddressIsNew": {
             "value": false
         },
         "bastionPublicIpAddressIsNew": {
             "value": false
         },
+        "bastionNsgIsNew": {
+            "value": false
+        },
+        "ddosProtectionPlanName": {
+            "value": "##ddos-protection-plan-name-not-set##"
+        },
+        "ddosProtectionPlanId": {
+            "value": "##ddos-protection-plan-id-not-set##"
+        },
+        "firewallName": {
+            "value": "##firewall-name-not-set##"
+        },
+        "firewallSkuTier": {
+            "value": "Standard"
+        },
+        "firewallPublicIpAddressName": {
+            "value": "##firewall-public-ip-name-not-set##"
+        },
+        "firewallPublicIpAddressId": {
+            "value": ""
+        },
+        "firewallPublicIPAddressServiceTag": {
+            "value": ""
+        },
+        "firewallPolicyName": {
+            "value": "##firewall-policy-name-not-set##"
+        },
+        "firewallPolicyId": {
+            "value": "##firewall-policy-id-not-set##"
+        },
+        "firewallPolicyTier": {
+            "value": "Standard"
+        },
+        "firewallPolicyManagementPublicIPAddressName": {
+            "value": "##firewall-policy-management-public-i-p-address-name-not-set##"
+        },
+        "firewallPolicyManagementPublicIPAddressId": {
+            "value": "##firewall-policy-management-public-i-p-address-id-not-set##"
+        },
+        "bastionName": {
+            "value": "##bastion-name-not-set##"
+        },
+        "bastionPublicIpAddressName": {
+            "value": "##bastion-public-ip-address-name-not-set##"
+        },
         "bastionPublicIPAddressId": {
             "value": ""
         },
-        "bastionPublicIpAddressServiceTag": {},
-        "bastionNsgIsNew": {},
-        "bastionNsgId": {},
-        "encryptionEnabled": {
+        "bastionPublicIpAddressServiceTag": {
+            "value": ""
+        },
+        "bastionNsgName": {
+            "value": "##bastion-nsg-name-not-set##"
+        },
+        "bastionNsgId": {
+            "value": "##bastion-nsg-id-not-set##"
+        },
+        "natGatewaysWithNewPublicIpAddress": {
+            "value": []
+        },
+        "natGatewaysWithoutNewPublicIpAddress": {
+            "value": []
+        },
+        "natGatewayPublicIpAddressesNew": {
+            "value": []
+        },
+        "networkSecurityGroupsNew": {
+            "value": []
+        },
+        "ipv6Enabled": {
             "value": false
         },
-        "encryptionEnforcement": {
-            "value": "AllowUnencrypted"
+        "subnetCount": {
+            "value": 2
         },
         "addressSpaceStartingAddressChanged": {
             "value": false
         },
         "addressSpaceAddressSizeChanged": {
-            "value": false
-        },
-        "ipv6Enabled": {
             "value": false
         },
         "defaultSubnetChanged": {
@@ -133,21 +191,23 @@
                 }
             ]
         },
-        "subnetCount": {
-            "value": 2
-        },
         "ipamPools": {
             "value": []
         },
-        "networkManager": {},
+        "networkManager": {
+            "value": {}
+        },
         "createNetworkManager": {
             "value": false
         },
-        "networkManagerName": {},
-        "avnmSubscriptionId": {},
-        "avnmResourceGroup": {},
-        "summarizedGatewayPrefixes": {
-            "value": null
+        "networkManagerName": {
+            "value": "##network-manager-name-not-set##"
+        },
+        "avnmResourceGroup": {
+            "value": "##avnm-resource-group-not-set##"
+        },
+        "avnmSubscriptionId": {
+            "value": "##avnm-subscription-id-not-set##"
         }
     }
 }
