@@ -1,7 +1,9 @@
- Project Definition
-Why
+#Project Definition
+
+#Why
 The purpose of this project is to build a small Azure environment that demonstrates practical cloud security engineering, not just resource deployment. It is designed to show how to reduce exposure, separate trust boundaries, monitor activity, and respond to suspicious behavior in a way that is easy to explain in a technical interview. It also shows that security is not only about blocking access, but also about visibility, validation, and cost control.
-What
+
+#What
 The project is a secure Azure lab built around a two-tier setup:
 
 a frontend VM exposed to the internet,
@@ -12,7 +14,7 @@ basic threat detection and alerting,
 lifecycle and cost-control scripts for cleanup and shutdown.
 
 The final result is a GitHub project that documents the architecture, security decisions, monitoring setup, attack simulation, and operational controls.
-How
+#How
 The lab is implemented by creating a single Azure environment with:
 
 one resource group to keep all resources contained,
