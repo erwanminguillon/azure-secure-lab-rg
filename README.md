@@ -141,4 +141,4 @@ and the operational controls used to manage the lab.
 
 
 # Notes
-This is a personal learning and portfolio project built for demonstration purposes. The environment is intentionally small, but the design choices reflect real security engineering principles that can scale to larger Azure deployments. I am also limited by my student subscritpion, as the SKU and regions available do not permit me to freely run a Linux Ubuntu VM. This is a reasonable technical constraint as sometimes, we are simply limited by the budget. I would like to revisit this roject once the sufficient funds are acquired.
+This is a personal learning and portfolio project built for demonstration purposes. The environment is intentionally small, but the design choices reflect real security engineering principles that can scale to larger Azure deployments. I am also limited by my student subscritpion, as the SKU and regions available do not permit me to freely run a Linux Ubuntu VM. This is a reasonable technical constraint as sometimes, we are simply limited by the budget. I would like to revisit this project once the sufficient funds are acquired.
